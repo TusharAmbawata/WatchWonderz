@@ -11,7 +11,6 @@ const Register = () => {
     const [password,setPassword] = useState("");
     const [phone,setPhone] = useState("");
     const [address,setAddress] = useState("");
-    const [answer,setAnswer] = useState("");
     const navigate = useNavigate();
     const [auth,setAuth] = useAuth();
     const handleSubmit = async(e) =>{
