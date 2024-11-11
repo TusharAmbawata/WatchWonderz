@@ -48,7 +48,7 @@ const CategoryProduct = () => {
 
     return (
         <Layout title={category?.name}>
-            <div className="container mt-3">
+            <div className="mt-3">
                 <h4 className="text-center">Category- {category?.name}</h4>
                 <h6 className="text-center">{products?.length} result found</h6>
                 <div className="row my-4">
