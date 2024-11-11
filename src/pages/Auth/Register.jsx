@@ -16,7 +16,7 @@ const Register = () => {
     const handleSubmit = async(e) =>{
         e.preventDefault();
         try {
-            const res = await axios.post(`${import.meta.env.VITE_REACT_APP_API}/api/auth/createuser`,{name,email,password,address,phone,answer});
+            const res = await axios.post(`${import.meta.env.VITE_REACT_APP_API}/api/auth/createuser`,{name,email,password,address,phone});
             if(res && res.data.success)
             {
                 toast.success(res.data && res.data.message);
@@ -30,7 +30,6 @@ const Register = () => {
             toast.error("Something went wrong");
         }
     }
-    // console.log(import.meta.env.VITE_REACT_APP_API);
 
   return (
     <>
