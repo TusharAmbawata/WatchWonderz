@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 f-small" style={{backgroundColor:"black",position:"absolute",width:"100%"}}>
-                <p className="col-md-4 mb-0 text-light">© 2024 Ecommerce App</p>
+                <p className="col-md-4 mb-0 text-light">© 2025 Ecommerce App</p>
 
                 <ul className="nav justify-content-end text-light f-small">
                     <li className="nav-item"><NavLink to="/about" className="nav-link px-2 text-light">About</NavLink></li>  
